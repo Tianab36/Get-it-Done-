@@ -1,0 +1,7 @@
+echo "# Get-it-Done-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tianab36/Get-it-Done-.git
+git push -u origin main
