@@ -1,0 +1,36 @@
+myString = "This is a string."
+print(myString)
+This is a string.
+print(type(myString))
+print(myString + " is of the data type " + str(type(myString)))
+This is a string.
+<class 'str'>
+This is a string. is of the data type <class 'str'>
+firstString = "water"
+secondString = "fall"
+thirdString = firstString + secondString
+print(thirdString)
+This is a string.                                            
+<class 'str'>                                                
+This is a string. is of the data type <class 'str'>
+waterfall
+name = input("What is your name? ")
+print(name)
+This is a string.                                            
+<class 'str'>                                                
+This is a string. is of the data type <class 'str'>              
+waterfall                                                    
+What is your name? TJ                                   
+TJ
+color = input("What is your favorite color?  ")
+animal = input("What is your favorite animal?  ")
+print("{}, you like a {} {}!".format(name,color,animal))
+This is a string.                                            
+<class 'str'>                                                
+This is a string. is of the data type <class 'str'>              
+waterfall                                                    
+What is your name? TJ                                    
+TJ                                                      
+What is your favorite color?  blue                           
+What is your favorite animal?  dog                           
+TJ, you like a blue dog!
