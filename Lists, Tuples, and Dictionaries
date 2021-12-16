@@ -1,0 +1,67 @@
+myFruitList = ["apple", "banana", "cherry"]
+print(myFruitList)
+print(type(myFruitList))
+apple, banana, cherry
+
+print(myFruitList[0])
+apple
+print(myFruitList[1])
+banana
+print(myFruitList[2]
+cherry
+
+myFruitList[2] = "orange"
+print(myFruitList)
+['apple', 'banana', 'cherry']                                
+<class 'list'>                                               
+apple                                                        
+banana                                                       
+cherry                                                       
+['apple', 'banana', 'orange'] 
+
+myFinalAnswerTuple = ("apple", "banana", "pineapple")
+print(myFinalAnswerTuple)
+print(type(myFinalAnswerTuple))
+
+print(myFinalAnswerTuple[0])
+print(myFinalAnswerTuple[1])
+print(myFinalAnswerTuple[2])
+['apple', 'banana', 'cherry']                                
+<class 'list'>                                               
+apple                                                        
+banana                                                       
+cherry                                                       
+['apple', 'banana', 'orange']                                
+('apple', 'banana', 'pineapple')                             
+<class 'tuple'>                                              
+apple                                                        
+banana                                                       
+pineapple
+
+myFavoriteFruitDictionary = {
+  "Akua" : "apple",
+  "Saanvi" : "banana",
+  "Paulo" : "pineapple"
+}
+print(myFavoriteFruitDictionary)
+print(type(myFavoriteFruitDictionary))
+
+print(myFavoriteFruitDictionary["Akua"])
+print(myFavoriteFruitDictionary["Saanvi"])
+print(myFavoriteFruitDictionary["Paulo"])
+['apple', 'banana', 'cherry']                                
+<class 'list'>                                               
+apple                                                        
+banana                                                       
+cherry                                                       
+['apple', 'banana', 'orange']                                
+('apple', 'banana', 'pineapple')                             
+<class 'tuple'>                                              
+apple                                                        
+banana                                                       
+pineapple                                                    
+{'Akua': 'apple', 'Saanvi': 'banana', 'Paulo': 'pineapple'}     
+<class 'dict'>                                               
+apple                                                        
+banana                                                       
+pineapple
