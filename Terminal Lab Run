@@ -1,0 +1,138 @@
+Last login: Wed Dec 15 09:35:47 on ttys000
+tjfmb@TJs-MacBook-Air ~ % ipython
+Python 3.10.1 (v3.10.1:2cd268a3a9, Dec  6 2021, 14:28:59) [Clang 13.0.0 (clang-1300.0.29.3)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.30.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: myFruitList = ["apple", "banana", "cherry"]
+   ...:  print(myFruitList)
+   ...:  print(type(myFruitList))
+  File "<ipython-input-1-8d9fb4897265>", line 2
+    print(myFruitList)
+    ^
+IndentationError: unexpected indent
+
+
+In [2]: myFruitList = ["apple", "banana", "cherry")
+  File "<ipython-input-2-41d3268ef6ee>", line 1
+    myFruitList = ["apple", "banana", "cherry")
+                                              ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+
+
+In [3]: myFruitList = ["apple", "banana", "cherry"]
+
+In [4]: print(myFruitList)
+['apple', 'banana', 'cherry']
+
+In [5]: print(type(myFruitList))
+<class 'list'>
+
+In [6]: print(myFruitList[0])
+apple
+
+In [7]: print(myFruitList[1])
+banana
+
+In [8]: myFruitList[2] = "orange"
+
+In [9]: print(myFruitList)
+['apple', 'banana', 'orange']
+
+In [10]: myFinalAnswerTuple = ("apple", "banana", "pineapple")
+
+In [11]: pritn(myFinrAnswerTuple)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-11-bb9bbb3fabdc> in <module>
+----> 1 pritn(myFinrAnswerTuple)
+
+NameError: name 'pritn' is not defined
+
+In [12]: print(myFinalAnswerTuple)
+('apple', 'banana', 'pineapple')
+
+In [13]: print(type(myFinalAnswerTuple))
+<class 'tuple'>
+
+In [14]: print(myFinalAnswerTuple[0])
+apple
+
+In [15]: print(myFinalAnswerTuple[1])
+banana
+
+In [16]: print(myFinalAnswerTuple[2])
+pineapple
+
+In [17]: myFavoriteFruitDictionary = {
+    ...:    "Akua" : "apple",
+    ...:    "Saanvi" : "banana",
+    ...:    "Paulo" : "pineapple"
+    ...:  }
+
+In [18]: print(myFavoriteFruitDictionary)
+{'Akua': 'apple', 'Saanvi': 'banana', 'Paulo': 'pineapple'}
+
+In [19]: print(type(myFavoriteFruitDictionary))
+<class 'dict'>
+
+In [20]: ORIGIN
+    ...:          1 malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed
+    ...:         61 lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+    ...:  //
+  File "<tokenize>", line 3
+    61 lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+    ^
+IndentationError: unindent does not match any outer indentation level
+
+
+In [22]:  malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed
+    ...:          lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+  File "<ipython-input-22-1cbd32b26f28>", line 1
+    malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed
+               ^
+SyntaxError: invalid syntax
+
+
+In [23]: ORIGIN
+    ...:         1 malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed lqvgqvelgg gpga
+    ...: gslqpl alegslqkrg iveqcctsic slyqlenycn
+  File "<ipython-input-23-8229937e8042>", line 2
+    1 malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+    ^
+IndentationError: unexpected indent
+
+
+In [24]: ORIGIN
+    ...:         1 malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed lqvgqvelgg gpga
+    ...: gslqpl alegslqkrg iveqcctsic slyqlenycn
+  File "<ipython-input-24-8229937e8042>", line 2
+    1 malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+    ^
+IndentationError: unexpected indent
+
+
+In [25]:  malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed                lqvgqvelg
+    ...: g gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+    ...: 
+  File "<ipython-input-25-b0c6284d5825>", line 1
+    malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed                lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+               ^
+SyntaxError: invalid syntax
+
+
+In [26]:  malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed lqvgIn [26]:  malwmrllplIn [26]:  malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed lqvgqvelgg gpgagslqpl al
+    ...: egslqkrg iveqcctsic slyqlenycn
+    ...: exit()
+  File "<ipython-input-26-a3add1c60863>", line 1
+    malwmrllpl lallalwgpd paaafvnqhl cgshlvealy lvcgergffy tpktrreaed lqvgqvelgg gpgagslqpl alegslqkrg iveqcctsic slyqlenycn
+               ^
+SyntaxError: invalid syntax
+
+
+In [27]: # Store the human preproinsulin sequence in a variable called preproinsulin:
+
+In [28]: preproInsulin = "malwmrllpllallalwgpdpaaafvnqhlcgshlvealylvcgergffytpktr" \
+    ...: "reaedlqvgqvelgggpgagslqplalegslqkrgiveqcctsicslyqlenycn"
+
+In [29]: 
