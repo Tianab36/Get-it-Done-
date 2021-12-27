@@ -31,6 +31,6 @@ This is a string. is of the data type <class 'str'>
 waterfall                                                    
 What is your name? TJ                                    
 TJ                                                      
-What is your favorite color?  blue                           
+What is your favorite color?  red                           
 What is your favorite animal?  dog                           
-TJ, you like a blue dog!
+TJ, you like a red dog!
