@@ -36,12 +36,12 @@ cherry
 <class 'tuple'>                                              
 apple                                                        
 banana                                                       
-pineapple
+pineapples
 
 myFavoriteFruitDictionary = {
   "Akua" : "apple",
   "Saanvi" : "banana",
-  "Paulo" : "pineapple"
+  "Paulo" : "pineapples"
 }
 print(myFavoriteFruitDictionary)
 print(type(myFavoriteFruitDictionary))
@@ -55,13 +55,13 @@ apple
 banana                                                       
 cherry                                                       
 ['apple', 'banana', 'orange']                                
-('apple', 'banana', 'pineapple')                             
+('apple', 'banana', 'pineapples')                             
 <class 'tuple'>                                              
 apple                                                        
 banana                                                       
 pineapple                                                    
-{'Akua': 'apple', 'Saanvi': 'banana', 'Paulo': 'pineapple'}     
+{'Akua': 'apple', 'Saanvi': 'banana', 'Paulo': 'pineapples'}     
 <class 'dict'>                                               
 apple                                                        
 banana                                                       
-pineapple
+pineapples
