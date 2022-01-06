@@ -4,7 +4,7 @@ Python 3.10.1 (v3.10.1:2cd268a3a9, Dec  6 2021, 14:28:59) [Clang 13.0.0 (clang-1
 Type 'copyright', 'credits' or 'license' for more information
 IPython 7.30.1 -- An enhanced Interactive Python. Type '?' for help.
 
-In [1]: myFruitList = ["apple", "banana", "cherry"]
+In [1]: myFruitList = ["apple", "grapes", "cherry"]
    ...:  print(myFruitList)
    ...:  print(type(myFruitList))
   File "<ipython-input-1-8d9fb4897265>", line 2
@@ -13,17 +13,17 @@ In [1]: myFruitList = ["apple", "banana", "cherry"]
 IndentationError: unexpected indent
 
 
-In [2]: myFruitList = ["apple", "banana", "cherry")
+In [2]: myFruitList = ["apple", "grapes", "cherry")
   File "<ipython-input-2-41d3268ef6ee>", line 1
-    myFruitList = ["apple", "banana", "cherry")
+    myFruitList = ["apple", "grapes", "cherry")
                                               ^
 SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
 
 
-In [3]: myFruitList = ["apple", "banana", "cherry"]
+In [3]: myFruitList = ["apple", "grapes", "cherry"]
 
 In [4]: print(myFruitList)
-['apple', 'banana', 'cherry']
+['apple', 'grapes', 'cherry']
 
 In [5]: print(type(myFruitList))
 <class 'list'>
@@ -32,14 +32,14 @@ In [6]: print(myFruitList[0])
 apple
 
 In [7]: print(myFruitList[1])
-banana
+grapes
 
 In [8]: myFruitList[2] = "orange"
 
 In [9]: print(myFruitList)
-['apple', 'banana', 'orange']
+['apple', 'grapes', 'orange']
 
-In [10]: myFinalAnswerTuple = ("apple", "banana", "pineapple")
+In [10]: myFinalAnswerTuple = ("apple", "grapes", "pineapple")
 
 In [11]: pritn(myFinrAnswerTuple)
 ---------------------------------------------------------------------------
@@ -50,7 +50,7 @@ NameError                                 Traceback (most recent call last)
 NameError: name 'pritn' is not defined
 
 In [12]: print(myFinalAnswerTuple)
-('apple', 'banana', 'pineapple')
+('apple', 'grapes', 'pineapple')
 
 In [13]: print(type(myFinalAnswerTuple))
 <class 'tuple'>
@@ -59,19 +59,19 @@ In [14]: print(myFinalAnswerTuple[0])
 apple
 
 In [15]: print(myFinalAnswerTuple[1])
-banana
+grapes
 
 In [16]: print(myFinalAnswerTuple[2])
 pineapple
 
 In [17]: myFavoriteFruitDictionary = {
     ...:    "Akua" : "apple",
-    ...:    "Saanvi" : "banana",
+    ...:    "Saanvi" : "grapes",
     ...:    "Paulo" : "pineapple"
     ...:  }
 
 In [18]: print(myFavoriteFruitDictionary)
-{'Akua': 'apple', 'Saanvi': 'banana', 'Paulo': 'pineapple'}
+{'Akua': 'apple', 'Saanvi': 'grapes', 'Paulo': 'pineapple'}
 
 In [19]: print(type(myFavoriteFruitDictionary))
 <class 'dict'>
