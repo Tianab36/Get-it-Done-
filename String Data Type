@@ -7,19 +7,19 @@ This is a string.
 <class 'str'>
 This is a string. is of the data type <class 'str'>
 firstString = "water"
-secondString = "fall"
+secondString = "cup"
 thirdString = firstString + secondString
 print(thirdString)
 This is a string.                                            
 <class 'str'>                                                
 This is a string. is of the data type <class 'str'>
-waterfall
+watercup
 name = input("What is your name? ")
 print(name)
 This is a string.                                            
 <class 'str'>                                                
 This is a string. is of the data type <class 'str'>              
-waterfall                                                    
+watercup                                                    
 What is your name? TJ                                   
 TJ
 color = input("What is your favorite color?  ")
@@ -28,7 +28,7 @@ print("{}, you like a {} {}!".format(name,color,animal))
 This is a string.                                            
 <class 'str'>                                                
 This is a string. is of the data type <class 'str'>              
-waterfall                                                    
+watercup                                                    
 What is your name? TJ                                    
 TJ                                                      
 What is your favorite color?  red                           
